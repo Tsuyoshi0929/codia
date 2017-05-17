@@ -1,4 +1,4 @@
-ファイル構造
+#ファイル構造
 
 style.scss  各scssファイルを結合し、style.cssを生成  
   
