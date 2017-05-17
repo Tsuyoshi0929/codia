@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+//
+// SASS用関数の設定
+//
+
+// ==========================================================================
+// ミックスイン
+// ==========================================================================
+
+@mixin noto_sans($weight:normal) {
+	font-family: 'Noto Sans Japanese', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight: $weight;
+}
+
+@mixin roboto($weight:normal) {
+	font-family: "Roboto", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight: $weight;
+}
+
+@mixin open_sans($weight:normal) {
+	font-family: "Open Sans", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight: $weight;
+}
+
+@mixin css3($property, $value) {
+     @each $prefix in -webkit-, -moz-, -ms-, -o-, '' {
+          #{$prefix}#{$property}: $value;
+     }
+}
+
+// ==========================================================================
+// 変数
+// ==========================================================================
+
+// プライマリーカラー
+$primary :#XXXXXX;
+
+// セカンダリーカラー
+$secondary :#XXXXXX;
+
+// アクセントーカラー
+$accent :#FF6F00;
+
+// ベースワイズ
+$width :XXXXpx;

@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+//
+// 汎用CSS
+//
+
+/* General
+---------------------------------------------------------------------------*/
+
+// ==========================================================================
+// Clearfix
+// ==========================================================================
+
+.clearfix:before,
+.clearfix:after {  
+  	content: " ";
+    display: table;
+} 
+
+.clearfix:after { 
+	clear: both; 
+}
+
+.clearfix { 
+	*zoom: 1; 
+}  
+  
+/* Hides from IE-mac \*/  
+* html .clearfix { 
+	height: 1%;
+}  
+.clearfix { 
+	display: block; 
+}  
+/* End hide from IE-mac */
+
+// ==========================================================================
+// Box Layouts
+// ==========================================================================
+
+.none { 
+	display: none;
+}
+
+.left {	
+	float: left; 
+}
+
+.right { 
+	float: right;
+}
+
+.inline_block { 
+	display: inline-block; 
+} 
+
+.inline { 
+	display: inline; 
+}
+
+.block { 
+	display: block;
+}
+
+.relative { 
+	position: relative;
+}
+
+.img_center { 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+// ==========================================================================
+// Font Style
+// ==========================================================================
+
+// 装飾
+
+.align_right { 
+	text-align: right;
+}
+
+.align_left {
+	text-align: left;
+}
+
+.align_center { 
+	text-align: center; 
+} 
+
+.indent { 
+	text-indent: 1rem; 
+}
+
+// 装飾
+
+.bold { 
+	font-weight: bold;
+}
+
+.overline { 
+	text-decoration: overline; 
+}
+
+.underline { 
+	text-decoration: underline; 
+}
+
+.blink { 
+	text-decoration: blink; 
+}
+
+.line_through { 
+	text-decoration: line-through; 
+}
+
+.italic { 
+	font-style: italic; 
+}
+
+// 文字色
+
+.red { 
+	color: red ; 
+}
+
+.blue { 
+	color: blue ; 
+}
+
+.green { 
+	color: green ; 
+}
+
+.gold { 
+	color: gold ; 
+}
+
+.grey { 
+	color: grey ; 
+}
+
+.black { 
+	color: black ; 
+}
+
+.white { 
+	color: white ; 
+}
+
